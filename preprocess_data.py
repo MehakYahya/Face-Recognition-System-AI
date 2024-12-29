@@ -5,7 +5,7 @@ import pandas as pd
 from pathlib import Path
 
 # Constants
-DATASET_PATH = Path(r"C:\Users\syeda\Downloads\p1\Student attendance.v1i.retinanet")
+DATASET_PATH = Path(r"C:\Users\dell\Downloads\PythonProject1\Student attendance.v1i.retinanet")
 IMG_SIZE = 128
 
 def preprocess_data(dataset_path=DATASET_PATH, img_size=IMG_SIZE):
